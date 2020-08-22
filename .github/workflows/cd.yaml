@@ -17,6 +17,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+      - name: Install wasm-pack
+        run: cargo install wasm-pack
       - name: Cargo build
         run: cd rust && cargo build
       - name: Install node_modules
