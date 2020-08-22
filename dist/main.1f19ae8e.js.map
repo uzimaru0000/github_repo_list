@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":[],"mappings":";;AAAA;;AAEA","file":"main.1f19ae8e.js","sourceRoot":"../src","sourcesContent":["import { run_app } from '../rust/Cargo.toml';\n\nrun_app();\n"]}
